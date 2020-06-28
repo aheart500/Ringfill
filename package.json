@@ -1,0 +1,60 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@firebase/auth": "^0.14.1",
+    "@material-ui/core": "^4.8.3",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/lab": "^4.0.0-alpha.45",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "antd": "^4.0.2",
+    "axios": "^0.19.2",
+    "dateformat": "^3.0.3",
+    "firebase": "^7.12.0",
+    "google-translate": "^3.0.0",
+    "moment": "^2.24.0",
+    "paypal-rest-sdk": "^1.8.1",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.12.0",
+    "react-google-login": "^5.1.20",
+    "react-icons": "^3.9.0",
+    "react-loader-spinner": "^3.1.5",
+    "react-moment": "^0.9.7",
+    "react-paypal-express-checkout": "^1.0.5",
+    "react-phone-number-input": "^3.0.22",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.0",
+    "react-telephone-input": "^4.75.4",
+    "soap": "^0.31.0",
+    "universal-cookie": "^4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "watch": "cra-build-watch"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cra-build-watch": "^3.2.0"
+  }
+}

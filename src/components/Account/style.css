@@ -1,0 +1,124 @@
+.transaction {
+  background-color: #ffce60;
+  padding: 17px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 1s;
+  box-shadow: 1px 1px 3px black;
+  width: 20%;
+  justify-content: center;
+  margin: 1%;
+  display: flex;
+}
+.transaction:hover {
+  background-color: rgb(250, 186, 36);
+  box-shadow: 2px 2px 4px black;
+}
+.label {
+  font-weight: bold;
+}
+.ant-tabs-nav .ant-tabs-tab-active {
+  color: #ffce60;
+  font-weight: 500;
+}
+.ant-tabs-nav .ant-tabs-tab:hover {
+  color: #ffce60;
+}
+.ant-tabs-ink-bar {
+  background-color: #ffce60;
+}
+.rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rwd {
+  margin: 1em;
+  font-weight: 700;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(252, 252, 1, 0.342);
+  border: 1px solid yellow;
+  width: 30%;
+  height: 120px;
+  padding: 1em;
+  border-radius: 10px;
+}
+.fields {
+  margin-bottom: 15px;
+}
+.fieldlabels {
+  width: 120px;
+  float: left;
+}
+.fields input {
+  padding: 5px;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+  min-width: 250px;
+}
+.add_contact input {
+  padding: 5px;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+  margin-right: 10px;
+  min-width: 250px;
+  width: 25%;
+}
+.formBtn {
+  float: right;
+  margin-bottom: 50px;
+}
+button {
+  background: #ffce60;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.sent_top_up {
+  float: "right";
+  color: black;
+  cursor: pointer;
+  background: #ffce60;
+  width: 100%;
+  padding: 6px;
+  text-align: center;
+}
+.sent_top_up:hover {
+  color: #ffffff;
+}
+.col-6 {
+  float: left;
+  width: 49%;
+}
+table td,
+table th {
+  padding: 5px;
+}
+.lbl-lft-p {
+  float: left;
+  width: 100%;
+}
+.lbl-lft {
+  float: left;
+  width: 35%;
+}
+.clearboth {
+  clear: both;
+}
+
+.arabic-fields label {
+  float: right;
+}
+.arabic-fields {
+  text-align: right;
+}
+.arabic-fields input {
+  text-align: right;
+}

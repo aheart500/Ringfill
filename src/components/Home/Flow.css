@@ -1,0 +1,145 @@
+.hiw {
+  width: 100%;
+  min-height: 450px;
+  padding: 16px;
+  padding-top: 50px;
+  background: lightgrey;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hiw-1 {
+  width: 100%;
+  padding: 16px;
+  padding-bottom: 0;
+  background: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hiw-2 {
+  width: 100%;
+  height: 100px;
+  padding: 16px;
+  padding-top: 0;
+  background: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.hiw .card {
+  width: 33.3333%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hiw .card:hover > svg {
+  fill: var(--color1);
+}
+
+.hiw .card h1 {
+  text-align: center;
+}
+
+.card svg {
+  height: 100px;
+  width: 100px;
+  fill: var(--color2);
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.hiw-2 button {
+  width: 170px;
+  height: 50px;
+  font-size: 1.4rem;
+  background: var(--color1);
+  color: var(--color2);
+  border: 2px solid var(--color1);
+  border-radius: 5px;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.hiw-2 button:hover {
+  background: var(--color2);
+  color: var(--color1);
+  border: 2px solid var(--color2);
+}
+.ripple {
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: 0;
+  border-radius: 10px;
+  background: var(--color1);
+  color: var(--color2);
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.ripple:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: radial-gradient(circle, #fff 10%, transparent 10.01%);
+  transform: scale(10, 10);
+  opacity: 0;
+  transition: transform 0.5s, opacity 1s;
+}
+.ripple:hover {
+  color: #212223;
+}
+.ripple:active:after {
+  transform: scale(0, 0);
+  opacity: 0.5;
+  transition: 0s;
+}
+
+.phoneIcon {
+  transform: rotate(90deg);
+}
+
+@media (max-width: 800px) {
+  .hiw .card {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .hiw .card:last-child {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .hiw .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .hiw .card:last-child {
+    margin-bottom: 0;
+  }
+}

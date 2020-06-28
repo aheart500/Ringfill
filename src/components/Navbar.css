@@ -1,0 +1,259 @@
+.navbar,
+.m-navbar {
+  height: 100px;
+  width: 100%;
+  background: var(--color1);
+  color: var(--color2);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  padding: 0 20px;
+}
+
+.m-navbar {
+  display: none;
+}
+
+.navbar button,
+.m-navbar button {
+  background: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: inherit;
+  color: var(--color2);
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 10px 10px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.navbar button:hover,
+.m-navbar button:hover {
+  color: var(--color1);
+  background: var(--color2);
+  border-radius: 10px;
+}
+
+.navLeftSide,
+.m-navLeftSide {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navLeftSide .logo,
+.m-navLeftSide .m-logo {
+  width: 110px;
+  height: 90px;
+  overflow: hidden;
+}
+
+.navLeftSide .logo a,
+.m-navLeftSide .m-logo a {
+  width: inherit;
+  height: inherit;
+  border-radius: 40%;
+  cursor: pointer;
+}
+
+.navLeftSide .logo img,
+.m-navLeftSide .m-logo img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40%;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.navLeftSide > * {
+  margin-right: 10px;
+}
+
+.navRightSide,
+.m-navRightSide {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.languageBtn,
+.m-languageBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s;
+}
+
+.languageDrop,
+.m-languageDrop {
+  width: 120px;
+  padding: 10px;
+  position: absolute;
+  top: 42px;
+  right: 0;
+  background: var(--color1);
+  z-index: 10;
+  display: block;
+}
+
+.languageDrop button,
+.m-languageDrop button {
+  background: inherit;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: inherit;
+  color: var(--color2);
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 10px 10px;
+  transition: all 0.5s;
+}
+
+.caret,
+.m-caret {
+  transform: rotate(0deg);
+  transition: transform 0.5s;
+}
+
+.hidden {
+  display: none;
+}
+
+.navRightSide .languageBtn svg:first-child {
+  margin: 0 10px;
+}
+
+.navRightSide .languageBtn svg:last-child,
+.m-languageBtn svg {
+  margin-left: 10px;
+}
+
+.navRightSide > * {
+  margin-right: 10px;
+}
+
+.m-navRightSide .m-toggle {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.m-navRightSide .m-toggler {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-navRightSide .m-toggleMenu {
+  position: fixed;
+  display: block;
+  height: 100%;
+  width: 310px;
+  top: 0;
+  right: 0;
+  background: var(--color1);
+  overflow: hidden;
+  z-index: 100;
+}
+
+.m-toggle .m-toggleMenu.opened {
+  transform: translateX(0%);
+  box-shadow: 0 8px 40px 0 rgba(6, 28, 68, 0.1),
+    0 16px 24px -12px rgba(6, 28, 68, 0.05);
+  transition: ease-in-out 0.5s;
+}
+
+.m-toggle .m-toggleMenu.closed {
+  transform: translateX(100%);
+  transition: ease-in-out 0.5s;
+}
+
+.m-toggleMenu .m-toggleMenuHeader {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.m-toggleMenu .m-toggleMenuHeader .close button {
+  font-size: 1.7rem;
+}
+
+.m-toggleMenu .m-toggleMenuHeader .close button:hover {
+  background: transparent;
+  color: red;
+  font-size: 1.9rem;
+}
+
+.m-toggleMenu .m-toggleMenuBody {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.m-toggleMenu .m-toggleMenuBody ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.m-toggleMenu .m-toggleMenuBody ul li {
+  padding: 0 20px;
+}
+
+.m-toggleMenu .m-toggleMenuFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.m-toggleMenu .m-toggleMenuFooter button {
+  width: 40%;
+  background: var(--color2);
+  color: var(--color1);
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+.m-toggleMenu .m-toggleMenuFooter button:hover {
+  border-radius: 1.5rem;
+}
+
+.modalBack {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+.goog-te-combo {
+  width: 150px !important;
+  height: 30px !important;
+  border-radius: 5px;
+}
+@media (max-width: 780px) {
+  .navbar {
+    display: none;
+  }
+
+  .m-navbar {
+    display: flex;
+    padding: 0 0 0 10px;
+  }
+}

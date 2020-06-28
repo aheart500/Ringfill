@@ -1,0 +1,86 @@
+.whyUsDiv{
+    padding: 1rem 1rem 2rem 1rem;
+    background: var(--color1);
+    color: var(--color2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.whyUsDiv .whyUsHeader{
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.whyUsDiv .whyUs{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.whyUsDiv .eachWhyUs{
+    width: 23%;
+    max-width: 330px;
+    margin: 0 1%;
+    margin-bottom: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: inherit;
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+    transition: box-shadow 0.5s;
+}
+
+.whyUsDiv .eachWhyUs .eachWhyUsHeader{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 5px;
+    background: inherit;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.whyUsDiv .eachWhyUs .eachWhyUsBody{
+    padding: 5px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whyUsDiv .eachWhyUs .eachWhyUsBody h2{
+    margin: 0 0 1rem 0;
+    letter-spacing: 0.05rem;
+}
+
+.whyUsDiv .eachWhyUs .eachWhyUsBody p{
+    margin: 3px;
+}
+
+@media(max-width: 1050px){
+    .whyUsDiv .eachWhyUs{
+        width: 45%;
+        max-width: unset;
+        margin: 0 2%;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 700px){
+    .whyUsDiv .eachWhyUs{
+        width: 100%;
+        max-width: unset;
+    }
+}

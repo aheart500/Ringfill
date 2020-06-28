@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+body {
+  margin: 0;
+  font-family: "Cairo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+body::-webkit-scrollbar,
+.special-container::-webkit-scrollbar {
+  width: 0.7em !important;
+}
+
+body::-webkit-scrollbar-track,
+.special-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+}
+
+body::-webkit-scrollbar-thumb,
+.special-container::-webkit-scrollbar-thumb {
+  background-color: #fbce5f !important;
+  border-radius: 5px;
+  outline: 1px solid slategrey !important;
+}

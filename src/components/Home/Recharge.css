@@ -1,0 +1,400 @@
+.homeHeader {
+  background-image: url("./../../Images/bg.jpg");
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.sum-input-payment {
+  width: calc(100% - 225px);
+  margin-left: 30px;
+  height: 37px;
+  border-width: 1px;
+  border-color: rgb(217, 217, 217);
+  border-radius: 2px;
+}
+.coupon-input {
+  width: calc(100% - 160px);
+  height: 37px;
+  border-width: 1px;
+  border-color: rgb(217, 217, 217);
+  border-radius: 2px;
+}
+.view-mobile {
+  margin-left: 90px;
+}
+.img-carrier {
+  height: 40px;
+  width: 60px;
+  float: left;
+}
+.img-service {
+  height: 33px;
+  width: 36px;
+  margin-right: 20px;
+  float: left;
+}
+.sum-input {
+  width: calc(100% - 225px);
+  margin-left: 90px;
+  height: 37px;
+  border-width: 1px;
+  border-color: rgb(217, 217, 217);
+  border-radius: 2px;
+}
+.sum-label {
+  float: left;
+  width: 135px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.countryCodesList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: -webkit-fill-available;
+  height: 350px;
+  overflow-y: scroll;
+}
+
+.PhoneInput {
+  width: 350px;
+  height: 50px;
+  margin-right: 20px;
+  padding: 5px;
+  padding-left: 15px;
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: black;
+  border: 0;
+  border-radius: 10px;
+  background: white;
+  transition: all 0.2s linear;
+  z-index: 1;
+}
+.countryCodesList span {
+  font-size: 1.7em;
+  cursor: pointer;
+}
+.homeHeader input,
+.homeHeader select {
+  width: 350px;
+  height: 50px;
+  margin-right: 20px;
+  padding: 5px;
+  padding-left: 15px;
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: black;
+  border: 0;
+  border-radius: 10px;
+  background: white;
+  transition: all 0.2s linear;
+  z-index: 1;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.ant-modal-footer {
+  overflow: auto;
+}
+
+.homeHeader input:focus {
+  outline: none;
+  /* box-shadow: 0px 0px 10px 4px var(--color1); */
+}
+
+.continar {
+  width: 70%;
+  padding: 15px;
+  margin: 0px auto;
+}
+.search-no {
+  padding: 15px;
+  text-align: center;
+  float: left;
+  width: 100%;
+  background: #c1c1bb;
+  margin: 20px 0px;
+}
+.search-no button {
+  float: right;
+}
+.PhoneInput input:focus {
+  border-color: #ffffff;
+}
+.PhoneInput {
+  float: left;
+}
+.PhoneInput input {
+  width: 450px;
+  height: 40px;
+  margin-right: 20px;
+  padding: 5px;
+  padding-left: 15px;
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: black;
+  border: 0;
+  border-radius: 10px;
+  background: white;
+  transition: all 0.2s linear;
+  z-index: 1;
+}
+.package {
+  width: 21%;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  margin: 5px;
+  cursor: pointer;
+}
+.names {
+  margin-top: 3px;
+  color: "deepblue";
+  font-size: "1.3em";
+}
+.service {
+  height: 40px;
+  width: 21%;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 3px;
+  margin-left: 90px;
+  margin-right: 55px;
+  cursor: pointer;
+}
+.service-div {
+  display: flex;
+}
+.package-shadow {
+  box-shadow: 0px 1px 7px rgb(255, 177, 3);
+}
+.package-select {
+  box-shadow: 0px 1px 2px rgb(131, 93, 9);
+}
+::placeholder {
+  color: darkgrey;
+  font-size: 14px;
+}
+
+:-ms-input-placeholder {
+  color: darkgrey;
+  font-size: 14px;
+}
+
+::-ms-input-placeholder {
+  color: darkgrey;
+  font-size: 14px;
+}
+
+.homeHeader button,
+.proceedbtn {
+  width: 160px;
+  height: 50px;
+  padding: 5px;
+  font-family: "Cairo", sans-serif !important;
+  font-size: 1.2rem !important;
+  font-weight: 600;
+  border: 0;
+  border-radius: 10px;
+  background-color: #ffce60 !important;
+  color: var(--color2);
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  cursor: pointer;
+}
+.proceedbtn:hover {
+  background-color: #cca549 !important;
+}
+.proceedbtn[disabled] {
+  background: #f5dda9;
+}
+.proceed-div {
+  text-align: right;
+  padding: 10px;
+}
+.makeStyles-paper-1 {
+  width: 728px !important;
+}
+
+.modalSpan {
+  font-weight: 700;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #ffce60;
+  padding: 10px;
+}
+.img-mobile {
+  width: 80px;
+}
+.send-details {
+  width: 95%;
+  margin-left: 5%;
+}
+.invoice-item {
+  width: 40%;
+  float: left;
+  text-align: left;
+}
+.invoice-item-right {
+  width: 60%;
+  float: right;
+  text-align: right;
+}
+.invoice-label {
+  width: "30%";
+  float: "left";
+}
+
+.makeStyles-paper-38 {
+  width: 775px !important;
+}
+
+.homeHeader button:focus {
+  outline: none;
+}
+.clearflex {
+  clear: both;
+}
+.ant-modal-body p {
+  float: left;
+  width: 100%;
+}
+.btn-right {
+  float: right !important;
+}
+@media (max-width: 669px) {
+  .names {
+    display: inline;
+    font-size: 12px;
+  }
+  .service {
+    width: 44%;
+    height: 35px;
+    margin-left: 5px;
+    padding: 2px;
+    margin-right: 5px;
+  }
+  .img-service {
+    height: 30px;
+    width: 32px;
+    float: left;
+    margin-right: 0px;
+  }
+  .package {
+    width: 45%;
+    font-size: 12px !important;
+    text-align: center;
+  }
+  .ant-modal-body,
+  .invoice-item,
+  .invoice-item-right {
+    font-size: 13px !important;
+  }
+  .view-mobile {
+    margin-left: 4px;
+  }
+  .sum-input {
+    padding: 5;
+    margin-left: 4px;
+    width: calc(100% - 80px);
+  }
+  .coupon-input {
+    padding: 5;
+    margin-left: 4px;
+    width: calc(100% - 141px);
+  }
+  .continar {
+    width: 100%;
+    padding: 5px;
+    margin: 0px auto;
+  }
+  .PhoneInput {
+    width: 320px;
+  }
+  .PhoneInput input {
+    width: 350px;
+    height: 40px;
+    margin-right: 5px;
+    padding: 5px;
+    font-family: sans-serif;
+  }
+  .search-no {
+    padding: 5px;
+  }
+  .search-no button {
+    float: right;
+    width: 65px;
+    height: 50px;
+    font-size: 16px;
+  }
+  .homeHeader {
+    flex-direction: column;
+  }
+
+  .homeHeader input {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .homeHeader button {
+    width: 30%;
+    max-width: 100px;
+    min-width: 100px;
+    margin-top: 20px;
+  }
+  .homeHeader input {
+    width: 90%;
+    margin-bottom: 0px;
+  }
+  .sum-input-payment {
+    margin-left: 0px;
+    width: calc(100% - 195px);
+  }
+}
+
+.arabic {
+  direction: rtl;
+}
+.arabic .sum-label {
+  float: right;
+}
+.arabic .invoice-item {
+  float: right;
+  width: unset;
+}
+.arabic .invoice-item-right {
+  float: left;
+  width: unset;
+}
+.btn-left {
+  float: left !important;
+}
+.arabic .PhoneInput {
+  float: right;
+}
+.arabic .ant-table tbody > tr > td,
+.arabic .ant-table thead > tr > th {
+  text-align: right;
+}
+.arabic .lbl-lft {
+  float: right;
+}
